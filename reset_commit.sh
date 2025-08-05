@@ -8,3 +8,6 @@ git reset --mixed HEAD~1
 
 # This creates a new commit that undoes the changes in the last commit
 git revert HEAD
+
+# Rewrite remote history
+git push origin main --force

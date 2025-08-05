@@ -9,6 +9,10 @@ git show --name-only 566ff71
 # File names and modifications
 git show 566ff71
 
+git show <tag_name>
 
 # Summary of changes (files and insertions/deletions only
 git show --stat 566ff71
+
+# Concise output
+git log --oneline
