@@ -16,3 +16,10 @@ git show --stat 566ff71
 
 # Concise output
 git log --oneline
+
+# View file
+git log -- show_info.sh
+
+# Graph
+# --all: show all branches
+git log --graph --oneline --all

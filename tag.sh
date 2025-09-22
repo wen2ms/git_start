@@ -22,4 +22,4 @@ git push origin --tags
 
 # Delete
 git tag -d v1.3
-git push origin -d v1.0
+git push origin -d tag v1.0
