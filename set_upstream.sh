@@ -8,13 +8,15 @@ git push -u origin main
 # View the Upstream Branch
 git status
 
+# View the overview
+git status -s
+git status --short
 
 # Change or Set Upstream Manually
 git branch --set-upstream-to=origin/main main
 
 # Or for the current branch:
 git branch --set-upstream-to=origin/main
-
 
 # Git creates a local branch (e.g., main)
 # Sets origin as the default remote

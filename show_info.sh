@@ -11,7 +11,7 @@ git show 566ff71
 
 git show <tag_name>
 
-# Summary of changes (files and insertions/deletions only
+# Summary of changes (files and insertions/deletions only)
 git show --stat 566ff71
 
 # Concise output
